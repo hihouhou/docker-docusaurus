@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV DOCUSAURUS_VERSION v1.14.4
+ENV DOCUSAURUS_VERSION=v1.14.4
 
 # Update & install packages
 RUN apt-get update && \
